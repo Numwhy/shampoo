@@ -1,0 +1,455 @@
+/** 清除样式 **/
+html,body,div,span,hr,h1,h2,h3,h4,h5,h6,p,pre,a,em,img,small,strong,sub,sup,b,dl,dt,dd,ol,ul,li,form,label,table,caption,tbody,tfoot,thead,tr,th,td,form,input,textarea{margin:0;padding:0;border:none;}
+*{-webkit-touch-callout:none;/** 禁止ios&android长按时下载图片 **/}
+/** 定义字体 **/
+body{
+    font-family:'Microsoft YaHei','微软雅黑';
+}
+img{
+    margin:0 auto;
+    vertical-align:top;
+}
+input{outline:none;}
+ul li{list-style:none;}
+label{font-weight:normal;}
+/** wrap **/
+.wrap,.header,.footer{
+    max-width:1024px;
+    min-width:320px;
+    margin:0 auto;
+}
+.wrap{
+    position:relative;
+    overflow:hidden;
+}
+/** header **/
+.header h1{
+    font-size:0.2rem;
+    text-align:center;
+    background:#5E5E5E;
+    padding:0.1rem;
+}
+.header h1 a,.header h1{
+    color:#fff;
+}
+.header h1 a{
+    position:absolute;
+    left:0.05rem;
+    top:0.1rem;
+    text-decoration:none;
+    border-right:0.01rem solid #515151;
+    padding-right:0.1rem;
+}
+/** contain **/
+.contain{
+    padding:0.1rem 0.05rem;
+}
+.contain,.usermine{
+    margin:0.42rem 0 0.5rem 0;
+}
+.con_box1 h2{
+    font-size:0.16rem;
+    color:#fff;
+    text-align:Center;
+    background:#962B30;
+    border-top-left-radius:0.1rem;
+    border-top-right-radius:0.1rem;
+    -webkit-border-top-left-radius:0.1rem;
+    -webkit-border-top-right-radius:0.1rem;
+    padding:0.1rem 0;
+}
+.con_box2 .jc_da{
+    border:0.01rem dashed #002A58;
+}
+.jc_da,.llRecord .jc_da{
+    border:0.01rem dashed #962B30;
+}
+.con_box1_txt p{
+    padding:0.05rem 0.05rem;
+}
+.con_box1_txt{
+    border-left:0.01rem solid #ccc;
+    border-right:0.01rem solid #ccc;
+    overflow:hidden;
+}
+.con_box1_txt>img{
+    width:100%;
+}
+.con_box1_txt p,.con_box3 .con_box1_txt ul li,.con_box4 ul li,.reader_list p,.usermine_pic p,.xf_record_null,.xf_recordbox{
+    font-size:0.14rem;
+    line-height:0.3rem;
+}
+.con_box1_txt1{
+    padding:0.05rem 0;
+}
+.con_box1_txt1 img{
+    width:0.5rem;
+    height:0.5rem;
+    margin:0;
+    padding:0;
+}
+.con_box1_txt>p{
+    border-bottom:0.01rem solid #F2F2F2;
+}
+.con_box1_txt>p a{
+    color:#999;
+    text-decoration:none;
+    margin:0.05rem 0;
+    display:block;
+}
+/** con_box2 **/
+.con_box2 h2{
+    background:#002A58;
+}
+.con_box2 .con_box1_txt{
+    padding:0;
+}
+.con_box2 p,.con_box4 ul li{
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    overflow:hidden;
+}
+.con_box2 .con_box1_txt>p img{
+    width:0.2rem;
+    margin-top:0.05rem;
+}
+.mt{margin-top:0.12rem;}
+.bgf1{background:#f1f1f1;}
+/** con_box3 **/
+.con_box3 .con_box1_txt,.con_box5_txt{
+    padding-top:0.1rem;
+}
+.con_box3 .con_box1_txt ul li{
+    margin:0;
+    padding:0;
+}
+.con_box3 .vs{
+    width:60%;
+    margin-top:18%;
+}
+.con_box3 .lc_pic{
+    width:80%;
+    display:block;
+}
+.con_box4 .con_box1_txt ul li{
+    border-bottom:0.01rem solid #ccc;
+}
+/** con_box4 **/
+.con_box4 ul li a,.usermine_nr a{
+    color:#000;
+    text-decoration:none;
+}
+.con_box4 ul li{
+    padding:0.05rem;
+}
+/** con_box5 **/
+.con_box5_txt img{
+    width:0.7rem;
+}
+.con_box1 .con_box5_txt1 p{
+    line-height:0.24rem;
+    margin:0 0 0 0.1rem;
+    padding:0;
+}
+.con_box5 .con_box1_txt>p,.llEffect .con_box1_txt p{
+    line-height:0.24rem;
+    margin:0.05rem 0;
+    border:none;
+}
+.con_box5 .con_box1_txt .con_box5_txt{
+    padding:0.1rem 0.1rem 0;
+}
+.con_box5 .con_box1_txt>p{
+    padding:0 0.1rem;
+}
+/** 理疗记录 **/
+.llRecord h2{
+    background:#962B30;
+}
+.llRecord .con_box1_txt p,.llEffect .con_box1_txt p{
+    white-space: normal;
+}
+.llRecord .bgf1{
+    margin:0.1rem 0 0.05rem;
+}
+/** 理疗效果图 **/
+.llEff{
+    margin-bottom:0;
+}
+.llEffect_txt ul:last-child{
+    padding-bottom:0.2rem;
+}
+.llEffect_txt ul li{
+    width:25%;
+    float:left;
+    text-align:center;
+}
+.llEffect_txt ul li img{
+    width:0.63rem;
+}
+.llEffect .con_box1_txt p img{
+    width:1.2rem;
+    margin:0.1rem 0;
+}
+.llEffect .con_box1_txt p i{
+    position:relative;
+    right:-0.05rem;
+    top:0.01rem;
+}
+/** 推荐阅读 **/
+.th_reader{
+    width:100%;
+    margin-bottom:0.08rem;
+}
+.reader .con_box1_txt{
+    border-bottom:0.01rem solid #ccc;
+    border-bottom-left-radius:0.1rem;
+    border-bottom-right-radius:0.1rem;
+}
+.reader ul li{
+    border-bottom:0.01rem dashed #ccc;
+}
+.reader ul li:last-child,.con_box2 .con_box1_txt ul li:last-child,.llRecord .bgf1{
+    border-bottom:none;
+}
+/** 文章详情 **/
+.reader_list h3{
+    font-size:0.18rem;
+    margin:0.02rem 0;
+}
+.reader_list .time{
+    color:#999;
+    margin-right:0.1rem;
+}
+.reader_list>img{
+    width:100%;
+}
+.reader_list p{
+    text-align:justify;
+}
+/** 用户 **/
+.usermine_pic{
+    background:#962B30;
+    padding:0.21rem 0;
+    position:relative;
+}
+.usermine_pic p{
+    color:#fff;
+    margin-top:0.04rem;
+}
+.usermine_pict{
+    width:0.22rem;
+    position:absolute;
+    right:0.1rem;
+    top:0.05rem;
+    color:#fff;
+}
+.usermine_pib,.userInfo_head{
+    width:0.6rem;
+}
+.usermine_nr .sprite_bg img{
+    width:0.24rem;
+    height:0.24rem;
+    margin:0.04rem 0 0 0.08rem;
+}
+.usermine_nr .sprite_bg,.usermine_nr ul li span{
+    display:block;
+    float:left;
+}
+.usermine_nr ul li span{
+    line-height:0.35rem;
+    margin-left:0.05rem;
+}
+.usermine_nr ul li,.myshare .inteDatail_bottom ul li,.userInfo ul li{
+    font-size:0.14rem;
+    padding:0.05rem;
+    border-bottom:0.01rem solid #f2f2f2;
+}
+.usermine_nr ul li a{
+    display:block;
+}
+.usermine_nr ul li:nth-child(2),.inteDatail_top{
+    border-bottom:0.12rem solid #f1f1f1;
+}
+/** 个人信息 **/
+.userInfo ul li{
+    padding:0.15rem 0.05rem;
+}
+.userInfo ul li:first-child{
+    line-height:0.6rem;
+}
+.man{
+    width:0.25rem;
+    background:#dbdbdb;
+    -webkit-border-radius:0.125rem;
+    border-radius:0.125rem;
+}
+.usersex span span{
+    margin:0.02rem 0.05rem 0;
+    display:inline-block;
+}
+.userS{
+    background:#DF887C;
+}
+.userbc{
+    width:2.76rem;
+    height:0.35rem;
+    font-size:0.14rem;
+    margin:0.2rem auto;
+    display:block;
+    border-radius:0.2rem;
+}
+/** 消费记录 **/
+.xf_record_null{
+    padding:0.8rem;
+    text-align:center;
+}
+.xf_record_null img{
+    width:0.7rem;
+}
+.xf_record_xj,.xf_record_date>p{
+    padding:0 0.2rem;
+}
+.xf_record_date>p{
+    height:0.41rem;
+    line-height:0.41rem;
+    background:#f1f1f1;
+}
+.xf_record_date>p,.xf_record_xjbd{
+    color:#999;
+}
+.xf_record_r{
+    width:0.1rem;
+    height:0.1rem;
+    background:#962B30;
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    margin:0.1rem 0.1rem 0 0;
+    display:block;
+    float:left;
+}
+.xf_record_s{
+    width:0.01rem;
+    height:0.5rem;
+    background:#962B30;
+    margin:0 0.12rem 0 0.05rem;
+    display:block;
+    float:left;
+}
+.ml{margin-left:0.2rem;}
+/** 积分明细 **/
+.inteDatail_top{
+    padding:0.2rem 0;
+}
+.inteDatail_topR{
+    width:1.1rem;
+    height:1.1rem;
+    border:0.01rem dashed #952B30;
+    margin:0 auto;
+}
+.inteDatail_topR1{
+    width:0.95rem;
+    height:0.95rem;
+    font-size:0.14rem;
+    text-align:center;
+    color:#fff;
+    background:#952B30;
+    margin:0.06rem auto;
+    padding-top:0.25rem;
+}
+.inteDatail_topR1,.inteDatail_topR{
+    -webkit-border-radius:50%;
+    border-radius:50%;
+    display:block;
+}
+.inteDatail_topR1 p b,.share_cs{
+    font-size:0.16rem;
+}
+.inteDatail_bottom .xf_record_xjt span:last-child{
+    color:#E6B207;
+}
+/** 我的分享 **/
+.myshare .inteDatail_top{
+    background:#962B30;
+    border:none;
+}
+.myshare .inteDatail_top>p{
+    color:#fff;
+}
+.myshare .inteDatail_topR1{
+    width:0.65rem;
+    height:0.65rem;
+    font-size:0.22rem;
+    line-height:0.65rem;
+    color:#962B30;
+    background:#fff;
+    padding:0;
+}
+.myshare .inteDatail_bottom ul li{
+    padding:0.25rem 0.2rem 0;
+    border:none;
+}
+.myshare .inteDatail_bottom ul li span{
+    color:#999;
+}
+/** 确认绑定 **/
+.sure_bd{
+    padding:0.1rem 0.1rem 0;
+}
+.sure_bd>p:first-child i{
+    font-size:0.68rem;
+    display:block;
+}
+.sure_bd>p:nth-child(2),.bd_form input{
+    font-size:0.14rem;
+}
+.bd_form input{
+    width:100%;
+    height:0.33rem;
+    border:1px solid #ccc;
+    -webkit-border-radius:0.1rem;
+    border-radius:0.1rem;
+    margin:0.08rem 0;
+    padding-left:0.1rem;
+}
+.bd_username{
+    color:#999;
+    background:#f1f1f1;
+}
+/** 查看大图 **/
+.effBig{
+    background:#5E5E5E;
+}
+.ckdt{
+    width:3rem;
+    height:3.6rem;
+    margin:0.42rem auto 0;
+    padding-top:0.2rem;
+    overflow:hidden;
+}
+.ckdt ul li{
+    width:3rem;
+    float:left;
+}
+.ckdt ul li img{
+    width:3rem;
+}
+.effraio a{
+
+    margin:0.1rem
+}
+.dis{display:none;}
+/** footer **/
+.footer{
+    background:#FCFCFC;
+    border-top:0.01rem solid #f1f1f1;
+}
+.footer ul li{
+    padding:0;
+}
+.footer ul li a{
+    font-size:0.14rem;
+    color:#B1B1B1;
+    display:block;
+    text-decoration:none;
+}
